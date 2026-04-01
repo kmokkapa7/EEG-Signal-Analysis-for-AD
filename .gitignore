@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Large dataset files (too large for GitHub - see EXCLUDED_FILES.md)
+dataset/
+EEG_AD_Iraq/
+integrated_eeg_dataset.npz
+X_raw_preprocessed.npy
+AD_all_patients.csv
+
+# Misc
+nul
+
+# Claude Code local settings
+.claude/settings.local.json
